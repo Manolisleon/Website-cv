@@ -299,12 +299,14 @@ p {
 
 
 /*--------cards*/
-.background {
-    width: 100%;
+
+.margin-div {
+    margin-bottom: 25px;
+}
+
+.row {
     display: flex;
-    justify-content: center;
-    align-items: start;
-    padding: 80px 32px;
+    flex-direction: column;
 }
  
 .articles {
