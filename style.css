@@ -236,6 +236,13 @@ span.languege {
     justify-content: space-around;
 }
 
+.article-preview p a.link-website {
+    color: #5555b6;
+}
+.link-website:hover {
+    text-decoration: underline;
+}
+
 /*--------FOOTER*/
 
 footer p {
@@ -304,7 +311,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    justify-content: center;
+    justify-content: space-around;
     max-width: 1200px;
     gap: 24px;
 }
